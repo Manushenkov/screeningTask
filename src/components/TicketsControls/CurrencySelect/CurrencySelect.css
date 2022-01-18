@@ -1,0 +1,9 @@
+.currency-select {
+    display: flex;
+    flex-direction: column;
+}
+
+.currency-select__label {
+     margin-bottom: 15px;
+ }
+

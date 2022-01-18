@@ -1,0 +1,49 @@
+.ticket-card {
+    height: 220px;
+    display: flex;
+}
+
+.ticket-card__image {
+    width: 200px;
+}
+
+.ticket-card__buy-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+    border-right: rgb(0, 0, 0, 0.1) solid thin;
+}
+
+.ticket-card__info-block {
+    display: flex;
+    padding: 25px;
+}
+
+.ticket-card__info-arrival {
+    text-align: right;
+}
+
+.ticket-card__info-departure-time,
+.ticket-card__info-arrival-time {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.ticket-card__info-departure-origin,
+.ticket-card__info-arrival-origin {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.ticket-card__info-departure-date,
+.ticket-card__info-arrival-date {
+    color: grey;
+}
+
+.ticket-card__info-layover {
+    text-align: center;
+    height: 30px;
+    width: 140px;
+    border-bottom: rgb(0, 0, 0, 0.1) solid 2px;
+}

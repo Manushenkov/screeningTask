@@ -1,0 +1,8 @@
+.tickets-page {
+    display: flex;
+    align-items: flex-start;
+}
+
+.tickets-page__controls {
+    margin-right: 20px;
+}

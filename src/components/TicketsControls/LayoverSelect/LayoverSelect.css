@@ -1,0 +1,8 @@
+.layover-select {
+    display: flex;
+    flex-direction: column;
+}
+
+.tickets-controls__label {
+    margin-bottom: 15px;
+}
